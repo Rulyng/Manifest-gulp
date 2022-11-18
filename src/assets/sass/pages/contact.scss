@@ -87,7 +87,8 @@ padding-bottom: 128px;
 }
 
 &__form{
-    width: 542px;
+    max-width: 542px;
+    width: 100%;
 
     @media (max-width: $tablet) {
         max-width: 288px;

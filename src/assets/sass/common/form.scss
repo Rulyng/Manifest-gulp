@@ -4,7 +4,7 @@
     gap: 43px;
 
     &__title{
-        
+       
 font-size: 16px;
 line-height: 27px;
 letter-spacing: 0.05em;
@@ -13,8 +13,8 @@ display: block;
     }
 
     &__input{
-        color: $color-grey-500;
-        font-size: 12px;
+color: $color-grey-500;
+font-size: 12px;
 line-height: 20px;
 letter-spacing: 0.1em;
 padding: 9px 0;
@@ -24,8 +24,8 @@ border-bottom: 1px solid $color-black;
 cursor: pointer;
        
 &::placeholder{
-            color: $color-grey-500;
-            font-size: 12px;
+color: $color-grey-500;
+font-size: 12px;
 line-height: 20px;
 letter-spacing: 0.1em;
         }
