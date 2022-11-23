@@ -1,0 +1,109 @@
+.home-page {
+  .hero {
+    &__title {
+      max-width: 697px;
+      padding: 128px 0;
+
+      @media (max-width: $tablet) {
+        padding: 40px 0;
+      }
+    }
+
+    @media (max-width: $tablet) {
+      &__container {
+        max-width: 288px;
+        margin: 0;
+      }
+    }
+  }
+
+  .slider {
+    padding-bottom: 128px;
+    display: flex;
+    gap: 32px;
+
+    @media (max-width: $tablet) {
+      padding: 0 0 64px 16px;
+    }
+
+    &__img {
+      margin-bottom: 16px;
+      max-width: 544px;
+      max-height: 544px;
+
+      @media (max-width: $tablet) {
+        width: 257px;
+        height: 252px;
+      }
+    }
+
+    &__item-1,
+    &__item-2 {
+      @media (max-width: $tablet) {
+        display: none;
+      }
+    }
+    &__name-hide {
+      visibility: hidden;
+    }
+  }
+
+  .describe {
+    &__container {
+      padding-bottom: 128px;
+
+      @media (max-width: $tablet) {
+        padding-bottom: 48px;
+        max-width: 288px;
+        margin: 0;
+             }
+    }
+
+    &__info {
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: $tablet) {
+        flex-direction: column;
+        gap: 48px;
+      }
+    }
+
+    &__info-title-text {
+      color: black;
+
+      @media (max-width: $tablet) {
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+      }
+    }
+
+    &__info a {
+      display: block;
+      padding-top: 48px;
+    }
+
+    &__info-title-text1 {
+      @media (max-width: $tablet) {
+        margin-bottom: 50px;
+      }
+    }
+    
+    &__info-text {
+      max-width: 480px;
+
+    }
+
+    &__info-text p{
+        @media (max-width: $tablet){
+            font-size: 16px;
+    line-height: 27px;
+          }
+    }
+
+    &__info-text-par1 {
+      margin-bottom: 44px;
+    }
+  }
+}

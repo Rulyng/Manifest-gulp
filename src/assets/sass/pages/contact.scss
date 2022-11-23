@@ -57,12 +57,12 @@ padding-bottom: 128px;
         padding-bottom: 21px;
                  }
 
-          &__info-tel{
+&__info-tel{
             color: $color-dark-grey;
             padding-bottom: 22px;
             display: block;
           }
-          &__info-mail{
+&__info-mail{
             color: $color-dark-grey;
             display: block;
             padding-bottom: 69px;
@@ -76,7 +76,7 @@ padding-bottom: 128px;
                     }
           }
 
-          &__social-text{
+&__social-text{
             padding-bottom: 24px;
             color: $color-black;
           }
