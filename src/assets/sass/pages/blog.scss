@@ -1,0 +1,118 @@
+.blog-page {
+  padding: 123px 0 128px;
+
+  @media (max-width: $tablet) {
+    padding: 64px 0;
+  }
+  .hero {
+    padding-bottom: 114px;
+
+    @media (max-width: $tablet) {
+      padding-bottom: 64px;
+      max-width: 320px;
+      margin: 0;
+    }
+
+    &__title {
+      margin-bottom: 96px;
+
+      @media (max-width: $tablet) {
+        font-size: 33px;
+        line-height: 50px;
+        margin-bottom: 58px;
+      }
+    }
+
+    &__slider {
+      display: flex;
+      gap: 68px;
+
+      @media (max-width: $tablet) {
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+    &__slider-img {
+      max-width: 540px;
+    }
+
+    &__slider-info {
+      max-width: 448px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    &__slider-name {
+      margin-bottom: 24px;
+    }
+
+    &__slider-title {
+      margin-bottom: 16px;
+    }
+
+    &__slider-date {
+      margin-bottom: 48px;
+
+      @media (max-width: $tablet) {
+        margin-bottom: 24px;
+      }
+    }
+
+    &__slider-text {
+      margin-bottom: 94px;
+
+      @media (max-width: $tablet) {
+        margin-bottom: 64px;
+      }
+    }
+
+    &__slider-num {
+      padding-right: 24px;
+    }
+
+    &__slider-num-active {
+      color: $color-grey-500;
+    }
+  }
+
+  // section categories
+
+  .categories {
+    &__select {
+      margin-bottom: 48px;
+      display: flex;
+      gap: 39px;
+    }
+
+    &__select-name {
+      color: $color-black;
+    }
+
+    &__select-input {
+      padding-bottom: 21px;
+      max-width: 407px;
+      width: 100%;
+      border-bottom: 1px solid black;
+    }
+
+    &__row {
+      margin-bottom: 68px;
+    }
+    &__row-cart {
+      display: flex;
+      gap: 38px;
+    }
+
+    &__row-cart1 {
+      margin-bottom: 126px;
+    }
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+
+  // section categories End
+}
