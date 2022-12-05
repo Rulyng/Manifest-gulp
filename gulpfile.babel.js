@@ -112,4 +112,4 @@ function openLocal() {
 
 exports.dev = parallel(clean, server, html, css, js, img, gulpWatch); //тут послідовність функцій які запускаются, наприклад ви можете додати щоб автоматом браузер відкривався openLocal
 
-setTimeout(openLocal, 6000); //Відкриває автоматов в браузері
+setTimeout(openLocal, 8000); //Відкриває автоматов в браузері
