@@ -9,6 +9,10 @@
   .hero {
     padding-bottom: 39px;
 
+    @media (max-width: $tablet){
+      padding-top: 20px;
+    }
+
     &__info {
       margin-bottom: 24px;
 

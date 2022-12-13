@@ -1,11 +1,12 @@
 .home-page {
   .hero {
+    
     &__title {
       max-width: 697px;
       padding: 128px 0;
 
       @media (max-width: $tablet) {
-        padding: 40px 0;
+        padding: 60px 0;
       }
     }
 
