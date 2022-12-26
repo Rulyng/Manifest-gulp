@@ -21,8 +21,8 @@
   .slider {
     padding-bottom: 128px;
     display: flex;
-    // justify-content: space-between;
-    gap: 32px;
+    justify-content: space-between;
+    // gap: 32px;
 
     
 
@@ -49,10 +49,7 @@
         display: none;
       }
     }
-    &__name-hide {
-      visibility: hidden;
-    }
-  }
+     }
 
   .describe {
     &__container {
